@@ -1,7 +1,7 @@
-all: compila executa
+all: compila
 
 compila: main.o EliminacaoGauss.o
-	gcc main.o EliminacaoGauss.o -o prog
+	gcc main.o EliminacaoGauss.o -o prog -lm
 
 main.o: main.c
 	gcc -c main.c
@@ -9,8 +9,8 @@ main.o: main.c
 EliminacaoGauss.o: EliminacaoGauss.c
 	gcc -c EliminacaoGauss.c
 
-executa:
-	./prog.exe carbono14.txt
-
 clean:
 	del main.o EliminacaoGauss.o prog
+
+cleanrm:
+	rm main.o EliminacaoGauss.o prog
