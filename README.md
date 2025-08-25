@@ -112,10 +112,10 @@ No terminal, dentro do diretório do trabalho, execute o comando `make` (Linux):
 make
 ```
 
-No Windows, dentro do diretório do trabalho, executa o comando `mingw32.exe`
+No Windows, dentro do diretório do trabalho, executa o comando `mingw32-make.exe`
 
 ```bash
-mingw32.exe
+mingw32-make.exe
 ```
 
 Estes comandos utilizará o `makefile` para compilar os arquivos `.c` e criar o executável. Se a compilação for bem-sucedida, um arquivo executável chamado `prog` será gerado no mesmo diretório.
