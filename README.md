@@ -120,7 +120,7 @@ mingw32-make.exe
 
 Estes comandos utilizará o `makefile` para compilar os arquivos `.c` e criar o executável. Se a compilação for bem-sucedida, um arquivo executável chamado `prog` será gerado no mesmo diretório.
 
-### 4. Executar o programa
+### 5. Executar o programa
 
 Após a compilação, você pode executar o programa passando o arquivo `carbono14.txt` como argumento:
 
